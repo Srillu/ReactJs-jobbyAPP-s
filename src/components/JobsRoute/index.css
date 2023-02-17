@@ -1,0 +1,67 @@
+.job-bg-container {
+  background-color: #121212;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.job-container {
+  display: flex;
+}
+
+.input-box {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  padding: 8px;
+  width: 100%;
+  outline: none;
+  align-self: center;
+}
+
+.search-input-container {
+  width: 400px;
+  border: 1px solid #b6c5ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 25px;
+  align-self: flex-start;
+}
+.search-icon {
+  color: #ffffff;
+  height: 20px;
+  width: 30px;
+}
+
+.search-icon-button {
+  background-color: #242625;
+  padding: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+}
+
+.profile-details-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 250px;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.profile-name {
+  color: #6366f1;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
